@@ -1,4 +1,4 @@
-# IT255PZDjordjeRistic4365
+# Angular Project
 DO THIS IN TERMINAL :
-json-server --watch db.json
-ng serve
+1. json-server --watch db.json 
+2. ng serve
