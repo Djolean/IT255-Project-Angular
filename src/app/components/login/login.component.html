@@ -1,0 +1,16 @@
+<div>
+    <h1>WeekendHouse Rental</h1>
+     <h3>Welcome, please login</h3>
+      <form  [formGroup]="loginForm" (ngSubmit)="login()">
+        <div>
+          <label for="email">Email</label>
+          <input formControlName="email"  required  type="email">
+          <label for="password">Password</label>
+          <input formControlName="password"  type="password">
+        </div>
+        <button>Submit</button>
+        <span>Don't have an account? 
+        <a routerLink="/register">Register here</a></span>
+      </form>
+  </div>
+

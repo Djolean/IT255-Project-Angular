@@ -1,0 +1,14 @@
+<body>
+
+    <nav>
+        <a routerLink="" routerLinkActive="active">
+            <img src="\assets\LogoWhite.png" alt="logo" width="40px">
+</a>
+        <a routerLink="/favorites" routerLinkActive="active">Favorites</a>
+        <a routerLink="/login" routerLinkActive="active " [(ngModel)]="loggedIn" *ngIf="loggedIn === '0'">Login</a>
+        <a  style="cursor: pointer;" (click)="logout()" [(ngModel)]="loggedIn" *ngIf="loggedIn === '1'">Logout</a>
+        <a routerLink="/register" routerLinkActive="active">Register</a>
+    </nav>
+
+
+</body>

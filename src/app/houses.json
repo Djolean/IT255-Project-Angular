@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "image": "https://images.adsttc.com/media/images/4ffa/c1ff/28ba/0d46/4600/009f/large_jpg/stringio.jpg?1414614011",
+        "houseName": "Brvnara Mitić",
+        "location": "Niš",
+        "price": "120 €",
+        "description": "Test desc"
+    },
+    {
+        "id": 2,
+        "image": "https://www.weekendica.com/wp-content/uploads/2021/08/vila-cherry-8.jpeg",
+        "houseName": "Vila Cherry",
+        "location": "Niš",
+        "price": "150€",
+        "description": "Test desc"
+    },
+    {
+        "id": 3,
+        "image": "https://www.weekendica.com/wp-content/uploads/2021/09/vila-ana-avala-2-1920x1279.jpg",
+        "houseName": "Vila Ana",
+        "location": "Beograd",
+        "price": "200€",
+        "description": "Test desc"
+    },
+    {
+        "id": 4,
+        "image": "https://www.weekendica.com/wp-content/uploads/2022/09/vila-galerija-21-1920x1440.jpg",
+        "houseName": "Vila Galerija",
+        "location": "Kragujevac",
+        "price": "140€",
+        "description": "Test desc"
+    },
+    {
+        "id": 5,
+        "image": "https://www.weekendica.com/wp-content/uploads/2022/08/vikendica-borca-23-1920x1440.jpg",
+        "houseName": "Vikendica Borča",
+        "location": "Beograd",
+        "price": "170€",
+        "description": "Test desc"
+    },
+    {
+        "id": 6,
+        "image": "https://www.weekendica.com/wp-content/uploads/2022/08/zen-garden-1-1920x1280.jpg",
+        "houseName": "Zen Garden",
+        "location": "Niš",
+        "price": "300€",
+        "description": "Test text"
+    }
+]

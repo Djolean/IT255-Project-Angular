@@ -1,0 +1,41 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    background: rgba(17, 17, 17, 0.959);
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+  }
+  
+  nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 1.2em;
+    transition: all 0.5s ease;
+    
+  }
+  
+  nav a:hover {
+    color: #00bfff;
+    transform: scale(1.1);
+  }
+  
+  nav .active {
+    color: #00bfff;
+  }
+  
+  nav a[onclick]{
+      cursor:pointer;
+      color:#ff0066;
+      font-weight: bold;
+      transition: all 0.5s ease;
+  }
+  
+  nav a[onclick]:hover{
+      transform: scale(1.1);
+      color: #ff0066;
+  }

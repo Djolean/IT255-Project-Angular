@@ -1,0 +1,28 @@
+<body>
+  
+<div class="search-container">
+    <form (submit)="search(searchLocation.value)">
+      <input type="text" #searchLocation placeholder="Search...">
+      <button type="submit">Search</button>
+      <p></p>
+      <button (click)="sortBy()">Sort By Price</button>
+    </form>
+  </div>
+ 
+ 
+  <div *ngFor="let house of showingHouse" class="house-card">
+    <div class="card-image">
+        <img src="{{house.image}}" alt="{{house.houseName}}">
+        <div class="image-overlay"></div>
+    </div>
+    <div class="card-content">
+        <h2>{{house.houseName}}</h2>
+        <p>{{house.location}}</p>
+        <p>{{house.price}}</p>
+        <p>{{house.description}}</p>
+        <button (click)="addToFavorite(house.id)">Add to favorites</button>
+    </div>
+</div>
+
+
+</body>

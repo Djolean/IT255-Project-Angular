@@ -1,0 +1,18 @@
+<body>
+
+    <div>
+        <ng-container *ngFor="let house of (house | async)">
+            <div>
+                <img *ngIf="house.id" src="{{ house.image }}" alt="image" />
+            </div>
+
+            <div class="card-content">
+                <h2>{{house.houseName}}</h2>
+                <p>{{house.location}}</p>
+                <p>{{house.price}}</p>
+                <p>{{house.description}}</p>
+                <button *ngIf="isInFavorites(house)" (click)="removeFromFavorites(house)">Remove from Favorites</button>
+            </div>
+        </ng-container>
+    </div>
+</body>

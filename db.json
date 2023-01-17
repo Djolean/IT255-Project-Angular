@@ -1,0 +1,38 @@
+{
+  "accounts": [
+    {
+      "email": "test@gmail.com",
+      "password": "test"
+    },
+    {
+      "email": "test233223@gmail.com",
+      "password": "test"
+    },
+    [
+      {
+        "email": "test@gmail.com",
+        "password": "test123"
+      }
+    ],
+    {
+      "email": "test@gmail.com",
+      "password": "test",
+      "id": "QcJ70Jc"
+    },
+    {
+      "email": "test@gmail.com",
+      "password": "test3333",
+      "id": "nIbs1ZY"
+    },
+    {
+      "email": "test@gmail.com",
+      "password": "test",
+      "id": "gYSGJfL"
+    },
+    {
+      "email": "test@gmail.comasdas",
+      "password": "test",
+      "id": "Sz5qAfD"
+    }
+  ]
+}
